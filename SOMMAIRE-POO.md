@@ -1,8 +1,3 @@
-* “Abstraction” = principe
-* “classe abstraite” = une façon (parmi d’autres) de mettre ce principe en pratique
-
-Voici le syllabus fusionné, propre et cohérent.
-
 ## Chapitre-01 — Classe, objet, instance
 
 * Définition et rôle
