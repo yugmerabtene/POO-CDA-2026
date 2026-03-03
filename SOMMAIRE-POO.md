@@ -1,8 +1,3 @@
-* **Abstraction** est un **principe** de conception : exposer le “quoi” et masquer le “comment”. Elle peut être faite avec une interface, une classe abstraite, ou même une classe classique bien conçue.
-* **Classe abstraite** est un **mécanisme du langage Java** : un type non instanciable qui peut contenir du code commun et imposer des méthodes à implémenter.
-
-Donc tu peux les **fusionner dans un syllabus** pour alléger, à condition d’être clair que :
-
 * “Abstraction” = principe
 * “classe abstraite” = une façon (parmi d’autres) de mettre ce principe en pratique
 
