@@ -1,65 +1,91 @@
-## Chapitre-01 — Classe, objet, instance
+## Sommaire du cours POO Java
 
-* Définition et rôle
-* Références et identité d’objet
-* Cycle de vie et création d’objets
+### Chapitre 1 — Classes et objets
 
-## Chapitre-02 — Attributs, méthodes et constructeurs
+* Attributs
+* Constructeur
+* Méthodes
+* Instanciation
 
-* État vs comportement
-* Visibilités (public, private, protected)
-* Constructeur, invariants, surcharge de constructeurs
+### Chapitre 2 — Encapsulation
 
-## Chapitre-03 — Encapsulation
+* `private` / `public`
+* Getters
+* Protection de l’état d’un objet
 
-* Masquage des données
-* Validation et règles métier
-* Cohérence et invariants d’objet
+### Chapitre 3 — Abstraction
 
-## Chapitre-04 — Abstraction
+* Idée d’abstraction
+* Classe abstraite et méthodes abstraites
 
-* Principe “quoi vs comment”
-* Contrats (interfaces)
-* Classes abstraites : rôle, cas d’usage, limites
-* Différences interface vs classe abstraite
+### Chapitre 4 — Héritage
 
-## Chapitre-05 — Héritage
+* `extends`
+* `super(...)`
+* Spécialisation d’un modèle utilisateur
 
-* Relation “est-un”
-* Spécialisation et réutilisation
-* Limites et bonnes pratiques (éviter hiérarchies profondes)
+### Chapitre 5 — Polymorphisme
 
-## Chapitre-06 — Polymorphisme
+* Type parent et objet enfant
+* `@Override`
+* Appels de méthodes selon le type réel
 
-* Substitution et comportement dynamique
-* Extensibilité du code
-* Cas d’usage typiques en architecture
+### Chapitre 6 — Interfaces
 
-## Chapitre-07 — Interfaces
+* Contrat (`interface`)
+* `implements`
+* Remplacement d’implémentations
 
-* Responsabilités et contrats
-* Segmentation des interfaces
-* Implémentations multiples et découplage
+### Chapitre 7 — Surcharge et redéfinition
 
-## Chapitre-08 — Surcharge et redéfinition
+* Overloading (même nom, paramètres différents)
+* Override (même signature, comportement remplacé)
 
-* Surcharge (overloading) : signatures, résolution
-* Redéfinition (override) : règles, cohérence, contrat
+### Chapitre 8 — Association, agrégation, composition
 
-## Chapitre-09 — Relations entre objets
+* Association (utilise)
+* Agrégation (regroupe)
+* Composition (possède)
 
-* Association
-* Agrégation
-* Composition
+### Chapitre 9 — Généricité
 
-## Chapitre-10 — Généricité
+* `<T>`
+* `<>`
+* `Optional<T>`
 
-* Types paramétrés
-* Contraintes de type
-* Sécurité de compilation, collections typées
+### Chapitre 10 — Exceptions
 
-## Chapitre-11 — Exceptions et gestion d’erreurs
+* Exception personnalisée
+* `throw`
+* `try` / `catch`
 
-* Exceptions métier vs techniques
-* Propagation contrôlée
-* Bonnes pratiques de robustesse
+### Chapitre 11 — Enum et rôles
+
+* `enum`
+* Rôles utilisateur
+* Contrôle d’accès simple
+
+### Chapitre 12 — Collections
+
+* `List<T>`
+* `Map<K,V>`
+* Recherche rapide par identifiant
+
+### Chapitre 13 — Immutabilité
+
+* `final`
+* Objets immuables
+* Encapsulation renforcée
+
+### Chapitre 14 — `equals`, `hashCode`, `toString`
+
+* Comparaison de contenu
+* Cohérence `equals/hashCode`
+* Affichage d’objets
+
+### Chapitre 15 — `static`
+
+* Attribut de classe
+* Méthode de classe
+* Constantes `static final`
+
