@@ -1,10 +1,8 @@
-# Cours — Généricité en Java (POO) avec `User`
+# Généricité en Java
 
-## Code très commenté, explications après chaque fichier, résultat attendu et justification
+--
 
----
-
-## Introduction — Contexte et objectifs du cours
+## Introduction — Contexte et objectifs
 
 La généricité (generics) est un mécanisme du langage Java qui permet d’écrire du code **réutilisable** tout en conservant un typage **strict**. Elle intervient dès qu’un programme manipule des structures qui contiennent des objets (listes, stockages, retours de méthodes), et qu’il devient nécessaire d’exprimer clairement “ce que ces structures contiennent”.
 
